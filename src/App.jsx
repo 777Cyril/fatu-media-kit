@@ -3,6 +3,7 @@ import AtmosphericBackground from './components/AtmosphericBackground';
 import Hero from './components/Hero';
 import AboutSection from './components/AboutSection';
 import PerformanceSection from './components/PerformanceSection';
+import ContentPillarsSection from './components/ContentPillarsSection';
 import PartnershipsSection from './components/PartnershipsSection';
 import FooterCTA from './components/FooterCTA';
 
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <AboutSection />
         <PerformanceSection />
+        <ContentPillarsSection />
         <PartnershipsSection />
         <FooterCTA />
       </main>

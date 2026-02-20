@@ -317,6 +317,55 @@ section {
   color: var(--color-moss);
 }
 
+/* Content Pillars */
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.pillar-card {
+  border: 1px solid rgba(242, 239, 233, 0.15);
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.pillar-card:hover {
+  border-color: rgba(196, 109, 69, 0.5);
+}
+
+.pillar-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-rust-light);
+  line-height: 1.2;
+}
+
+.pillar-percentage {
+  font-family: var(--font-meta);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+.pillar-description {
+  font-size: 1rem;
+  font-weight: 300;
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Partnerships */
 .partnership-list {
   list-style: none;
