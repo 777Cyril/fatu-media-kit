@@ -154,6 +154,17 @@ section {
   gap: 0.5rem;
 }
 
+.hero-tagline {
+  letter-spacing: 0.35em;
+  font-size: 0.8rem;
+}
+
+.hero-dot {
+  color: var(--color-rust-light);
+  margin: 0 1rem;
+  letter-spacing: 0;
+}
+
 /* Content blocks */
 .content-block {
   background: rgba(26, 36, 24, 0.4);
