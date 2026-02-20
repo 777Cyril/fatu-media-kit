@@ -319,7 +319,7 @@ section {
 
 /* Content Pillars */
 #content-pillars {
-  padding: 10vh 2rem;
+  padding: 2vh 2rem 0;
   max-width: var(--container-width);
   margin: 0 auto;
 }
@@ -334,7 +334,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   align-items: start;
-  padding-bottom: 160px; /* room for stagger overflow */
+  padding-bottom: 60px; /* room for stagger overflow */
 }
 
 .pillar-card {
