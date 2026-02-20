@@ -1,0 +1,25 @@
+import './index.css';
+import AtmosphericBackground from './components/AtmosphericBackground';
+import Hero from './components/Hero';
+import AboutSection from './components/AboutSection';
+import PerformanceSection from './components/PerformanceSection';
+import PartnershipsSection from './components/PartnershipsSection';
+import FooterCTA from './components/FooterCTA';
+
+function App() {
+  return (
+    <>
+      <div className="noise-texture" />
+      <AtmosphericBackground />
+      <main>
+        <Hero />
+        <AboutSection />
+        <PerformanceSection />
+        <PartnershipsSection />
+        <FooterCTA />
+      </main>
+    </>
+  );
+}
+
+export default App;
